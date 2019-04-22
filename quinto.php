@@ -35,9 +35,9 @@
 
         <h1 class="text" style="background-color: orange;">CANCIÓN 5</h1>
         
+        <br><br>
+            <h4 class="text-white cancion" style="background-color: black;"><?php echo $id_song . '.- ' . $name_song ?> - <?php echo $artist_song ?></h4>
         <br><br><br>
-            <h4 class="text-white" style="background-color: black;"><?php echo $name_song ?> - <?php echo $artist_song ?></h4>
-        <br><br><br><br>
 
         <audio id="test" src="music/5/<?php echo $id_song ?>.mp3" preload="metadata" controls></audio>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -45,7 +45,9 @@
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <audio id="test" src="music/15/<?php echo $id_song ?>.mp3" preload="metadata" controls></audio>
 
-        <br><br><br><br><br>
+        <br><br>
+        <audio id="test" src="music/completa/<?php echo $id_song ?>.mp3" preload="metadata" controls></audio>
+        <br><br><br>
         <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#seleccion">Seleccionar Ganador</button>
         
         <!-- == == == || END || == == == -->

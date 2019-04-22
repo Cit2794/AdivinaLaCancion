@@ -104,3 +104,11 @@ main{
 .cont{
   padding-top: 5%;
 }
+
+.cancion{
+  color: black !important;
+}
+
+.cancion:hover{
+  color: white !important;
+}
